@@ -1,0 +1,182 @@
+body {
+    font-family: helvetica;
+    font-weight: 500;
+}
+
+/* CONTEUDO DO MENU */
+
+.navbar ol li {
+    font-weight: bold;
+}
+
+.breadcrumb {
+    background-color: white;
+    margin-top: 20px;
+    width: 100% !important;
+}
+
+.breadcrumb a {
+    color: black;
+}
+
+/* CONTEUDO DO MENU */
+
+/* CONTEUDO DOS TEXTOS E BOTÃO */
+.texto {
+    font-size: 39px;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    text-align: justify;
+    text-align: center;
+    font-weight: bold;
+}
+
+.texto1 {
+    font-size: 17px;
+    margin-bottom: 50px;
+    text-align: justify;
+    text-align: center;
+    font-weight: 500;
+}
+
+.botao {
+    background: #222222;
+    width: 150px;
+    height: 45px;
+    margin-bottom: 90px;
+    font-weight: bold;
+}
+
+/* CONTEUDO DOS TEXTOS E BOTÃO */
+
+/* CONTEUDO DOS CARDS */
+
+.h3card {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.card {
+    width: 100% !important;
+}
+
+.esp {
+    border-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.card-body h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.txtcard {
+    font-style: italic;
+    color: #989898;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* CONTEUDO DOS CARDS */
+
+/* CONTEUDO DO JUMBOTRON */
+
+.jumbotron {
+    border-radius: 0px;
+    width: 100% !important;
+
+}
+
+.jumbotron h3 {
+    margin-top: -20px;
+    margin-bottom: 38px;
+    font-weight: 700;
+}
+
+.aboutp {
+    text-align: justify;
+    color: #666666;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.icons {
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+.icons a {
+    padding-right: 6px;
+}
+
+.whatsp {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 18px;
+    margin-top: 25px;
+}
+
+#suaDiv img{
+    float: left;
+    margin-right: 35px;
+    margin-top: 6px;
+}
+
+.mover {
+    margin-left: 28px;
+    height: 100% !important;
+}
+
+.paragra {
+    font-size: 14px;
+    margin-top: -10px;
+    color: #ca1f1f;
+    font-weight: 400;
+}
+.paragra1 {
+    color: #666666;
+    font-size: 14px;
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+/* CONTEUDO DO JUMBOTRON */
+
+/* RODAPE */
+footer {
+    padding-bottom: 200px;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+footer span {
+    color: red;
+}
+
+.bread {
+    background-color: white;
+    margin-top: -59px;
+}
+
+.bread ol li {
+    font-weight: bold;
+}
+
+.breadport {
+    color: #099999;
+}
+
+.bread { left: 450px; }
+    /*Esconde a dive de classe Overlay caso seja identificado que o width Mobile maximo deseja igual ou menor que 980px*/
+@media only screen and (max-width: 980px){
+    .bread { display: none; }
+}
+
+/* RODAPE */
